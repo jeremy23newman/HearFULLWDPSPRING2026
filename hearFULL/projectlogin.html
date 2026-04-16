@@ -11,7 +11,7 @@
         
          <nav>
             <a href="projectregister.html">registration</a>
-            <a href="#projectlogin.html">login page</a>
+            <a href="projectlogin.html">login page</a>
             <a href="projectpost.html">post page</a>
         </nav>
         
@@ -20,12 +20,12 @@
     
     <main>
         <h1>login here</h1>
-        <form>
+        <form id="loginForm">
             <label for="username">username:</label>
-            <input type="text" id="username">
+            <input type="text" id="username" required>
             <br>
             <label for="password">password:</label>
-            <input type="password" id="password">
+            <input type="password" id="password" required>
             <br>
             <input id="submitbutton"  type="submit" value="login">
         </form>
@@ -39,6 +39,8 @@
 
 
     </footer>
+
+    <script src="./scripts/user.js"></script>
     
 </body>
 </html>

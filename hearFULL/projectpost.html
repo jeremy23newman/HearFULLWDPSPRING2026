@@ -12,7 +12,7 @@
         <nav>
             <a href="projectregister.html">registration</a>
             <a href="projectlogin.html">login page</a>
-            <a href="#projectpost.html">post page</a>
+            <a href="projectpost.html">post page</a>
         </nav>
         
 
@@ -21,17 +21,17 @@
     
     <main>
         <h1>review</h1>
-        <form>
+        <form id="reviewForm">
             <label for="musicname">song/album name:</label>
-            <input type="text" id="musicname">
+            <input type="text" id="musicname" required>
             <br>
 
             <label for="artistname">artist name:</label>
-            <input type="text" id="artistname">
+            <input type="text" id="artistname" required>
             <br>
 
             <label for="ratingnumb">rating(0-10):</label>
-            <input type="number" id="ratingnumb">
+            <input type="number" id="ratingnumb" required>
             <br>
 
             <label for="descrption">give em an earful:</label>
@@ -48,6 +48,7 @@
         
 
     </footer>
+    <script src="./scripts/review.js"></script>
     
 </body>
 </html>

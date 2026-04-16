@@ -10,7 +10,7 @@
     <header>
         
         <nav>
-            <a href="#projectregister.html">registration</a>
+            <a href="projectregister.html">registration</a>
             <a href="projectlogin.html">login page</a>
             <a href="projectpost.html">post page</a>
         </nav>
@@ -21,21 +21,21 @@
     
     <main>
         <h1>register here</h1>
-        <form>
+        <form id="registerForm">
             <label for="first name">first name:</label>
-            <input type="text" id="firstname">
+            <input type="text" id="firstname" required>
             <br>
 
             <label for="last namem">last name:</label>
-            <input type="text" id="lastname">
+            <input type="text" id="lastname" required>
             <br>
 
             <label for="username">username:</label>
-            <input type="text" id="username">
+            <input type="text" id="username" required>
             <br>
 
             <label for="password">password:</label>
-            <input type="password" id="password">
+            <input type="password" id="password" required>
             <br>
             <input id="submitbutton" type="submit" value="register">
 
@@ -49,6 +49,8 @@
         
 
     </footer>
+
+    <script src="./scripts/user.js"></script>
     
 </body>
 </html>
