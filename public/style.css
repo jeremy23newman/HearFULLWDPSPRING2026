@@ -1,25 +1,25 @@
 body {
     background-color: rgb(255, 253, 253);
+    margin: 0;
 }
 
 header{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    height: 400px;
+    padding: 20px;
 }
 
 main{
     text-align: center;
     color: rgb(107, 172, 196);
-     display: flex;
+
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
     flex-direction: column;
-    height: 10vh;
+
+    min-height: 80vh;
 }
 
 h1{
@@ -55,4 +55,11 @@ img{
     padding: 10px;
     height: 200px;
     width: 300px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
 }
